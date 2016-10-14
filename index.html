@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bayardacreslabs</title>
+<style type="text/css">
+
+
+body
+{
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+
+	
+	
+
+#topsection{
+height: 90px; /*Height of top section*/
+text-align: center; 
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+color: #FF0000; 
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin: 0 15% 0 20%; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+#leftcolumn{
+float: left;
+width: 20%; /*Width of left column in percentage*/
+margin-left: -100%;
+background: #000;
+}
+
+#rightcolumn{
+float: left;
+width: 15%; /*Width of right column in pixels*/
+margin-left: -15%; /*Set margin to that of -(RightColumnWidth)*/
+background: #000;
+color: #00FFFF;
+}
+	
+	
+	
+
+ul#navigation_links_major a		  
+{
+color: purple;  /*this is color of text in grid*/
+text-decoration: none; 
+display: block;
+} 
+
+ul#navigation_links_major a:hover
+{
+background: yellow;
+color: #FF8C00;
+}
+
+ul#navigation_links_major
+{
+font-style: italic;
+color: #FF8C00;
+}
+
+
+	
+	
+	
+	
+#footer{
+clear: left;
+width: 100%;
+background: black;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+/* ####### responsive layout CSS ####### */
+
+@media (max-width: 840px){ /* 1st level responsive layout break point- drop right column down*/
+	
+	#rightcolumn{
+	float: none;
+	width: 100%;
+	margin-left: 0;
+	clear: both;
+	}
+	
+	#contentcolumn{
+	margin-right: 0;
+	}
+}
+
+@media (max-width: 600px){ /* 2nd level responsive layout break point- drop left column down */
+	#leftcolumn{
+	float: none;
+	width: 100%;
+	clear: both;
+	margin-left: 0;
+	}
+	
+	#contentcolumn{
+	margin-left: 0;
+	}
+}
+
+</style>
+</head>
+	
+	
+	
+<body>
+<div id="maincontainer">
+
+<div id="topsection"><div class="innertube"><h1>Bayard Acres Labrador Retrievers.</h1></div></div>
+
+<div id="contentwrapper">
+
+	
+<div id="contentcolumn">
+	
+	
+<div class="innertube">
+<img src="/images/puppies_main.jpeg" alt="Puppies" width="550" height="228" />
+
+
+
+</div>
+	
+	
+</div>
+</div>
+
+<div id="leftcolumn">
+<div class="innertube">
+	
+<ul id="navigation_links_major">
+<li><a href="/home.html">Home</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="/puppies.html">Puppies</a></li>
+<li><a href="/litters.html">Litters</a></li>
+<li><a href="/girls.html">The Girls</a></li>
+<li><a href="/boys.html">The Boys</a></li>
+<li><a href="/breeding.html">Breeding</a></li>
+<li><a href="/pricing.html">Pricing</a></li>
+<li><a href="/gallery.html">Gallery</a></li>
+<li><a href="/links.html">Links</a></li>
+	
+</ul>
+	
+</div>
+</div>
+
+<div id="rightcolumn">
+<div class="innertube">Call us at 641-628-9401
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+	
+Email us here
+wjdkjm@gmail(dot)com
+	
+</div>
+</div>
+
+<div id="footer">Copyright - bayardacreslabs.com -2016 - 2050</div>
+
+</div>
+
+</body>
+</html>
+
+
