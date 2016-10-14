@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bayardacreslabs</title>
+<style type="text/css">
+
+#topsection{
+height: 90px; /*Height of top section*/
+text-align: center;
+background: black;
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+color: #FF0000;
+}
+body
+{
+margin:0;
+padding:0;
+line-height: 1.5em;
+background: black;
+}
+
+b
+{
+font-size: 110%;
+color: white;	
+}
+	
+em{color: red;}
+
+
+	
+	
+
+#topsection{
+height: 90px; /*Height of top section*/
+text-align: center;
+color: #000;
+	
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
