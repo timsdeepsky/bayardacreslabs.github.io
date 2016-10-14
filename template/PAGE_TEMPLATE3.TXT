@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css;">
+<meta name="Author" content="Kevin McGinnis - Bayard Acres Labrador Retrievers">
+<meta name="Keywords" content="Iowa labrador breeders, Iowa labrador retrievers, yellow labrador puppies, black labrador puppies, Pella Iowa labrador breeders, hunting dogs, ">
+<meta name="Description" content="This website was created for breeding and selling labrador retriever puppies in the central Iowa region in Pella Iowa             ">
+	
+		
+	
+<title>Bayardacreslabs</title>
+<style type="text/css">
+
+#topsection{
+height: 90px; /*Height of top section*/
+text-align: center;
+background: black;
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+color: #FF0000;
+}
+body
+{
+margin:0;
+padding:0;
+line-height: 1.5em;
+background: black;
+}
+
+b
+{
+font-size: 110%;
+color: white;	
+}
+	
+em{color: red;}
+
+
+	
+	
+
+#topsection{
+height: 90px; /*Height of top section*/
+text-align: center;
